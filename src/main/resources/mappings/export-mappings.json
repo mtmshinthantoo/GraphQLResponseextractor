@@ -1,0 +1,210 @@
+{
+  "articles": {
+    "rootPath": "data.articles.edges",
+    "itemPath": "node",
+    "steps": [
+      {
+        "type": "value",
+        "column": "articleId",
+        "path": "id"
+      },
+      {
+        "type": "value",
+        "column": "blogId",
+        "path": "blog.id"
+      },
+      {
+        "type": "value",
+        "column": "authorName",
+        "path": "author.name"
+      },
+      {
+        "type": "value",
+        "column": "title",
+        "path": "title"
+      },
+      {
+        "type": "value",
+        "column": "handle",
+        "path": "handle"
+      },
+      {
+        "type": "value",
+        "column": "createdAt",
+        "path": "createdAt"
+      },
+      {
+        "type": "flatten",
+        "column": "tags",
+        "path": "tags",
+        "separator": ", "
+      },
+      {
+        "type": "expand",
+        "path": "customAttributes",
+        "keepWhenEmpty": true,
+        "fields": [
+          {
+            "column": "customAttributeKey",
+            "path": "key"
+          },
+          {
+            "column": "customAttributeValue",
+            "path": "value"
+          }
+        ]
+      }
+    ]
+  },
+  "OrderDiscountCodes": {
+    "rootPath": "data.orders.edges",
+    "itemPath": "node",
+    "steps": [
+      {
+        "type": "value",
+        "column": "orderId",
+        "path": "id"
+      },
+      {
+        "type": "flatten",
+        "column": "discountCodes",
+        "path": "discountCodes",
+        "separator": ", "
+      },
+      {
+        "type": "expand",
+        "path": "discountApplications.edges",
+        "keepWhenEmpty": true,
+        "fields": [
+          {
+            "column": "discountCode",
+            "path": "node.code"
+          },
+          {
+            "column": "discountTitle",
+            "path": "node.title"
+          },
+          {
+            "column": "targetType",
+            "path": "node.targetType"
+          },
+          {
+            "column": "amount",
+            "path": "node.value.amount"
+          },
+          {
+            "column": "percentage",
+            "path": "node.value.percentage"
+          },
+          {
+            "column": "currencyCode",
+            "path": "node.value.currencyCode"
+          }
+        ]
+      }
+    ]
+  },
+  "OrderLineItems": {
+    "rootPath": "data.orders.edges",
+    "itemPath": "node",
+    "steps": [
+      {
+        "type": "value",
+        "column": "orderId",
+        "path": "id"
+      },
+      {
+        "type": "value",
+        "column": "orderUpdatedAt",
+        "path": "updatedAt"
+      },
+      {
+        "type": "expand",
+        "path": "lineItems.edges",
+        "keepWhenEmpty": false,
+        "fields": [
+          {
+            "column": "lineItemId",
+            "path": "node.id"
+          },
+          {
+            "column": "productId",
+            "path": "node.product.id"
+          },
+          {
+            "column": "variantId",
+            "path": "node.variant.id"
+          },
+          {
+            "column": "variantTitle",
+            "path": "node.variant.title"
+          },
+          {
+            "column": "title",
+            "path": "node.title"
+          },
+          {
+            "column": "name",
+            "path": "node.name"
+          },
+          {
+            "column": "quantity",
+            "path": "node.quantity"
+          },
+          {
+            "column": "originalUnitPrice",
+            "path": "node.originalUnitPriceSet.shopMoney.amount"
+          },
+          {
+            "column": "sku",
+            "path": "node.sku"
+          },
+          {
+            "column": "vendor",
+            "path": "node.vendor"
+          },
+          {
+            "column": "fulfillmentServiceId",
+            "path": "node.fulfillmentService.id"
+          },
+          {
+            "column": "requiresShipping",
+            "path": "node.requiresShipping"
+          },
+          {
+            "column": "taxable",
+            "path": "node.taxable"
+          },
+          {
+            "column": "isGiftCard",
+            "path": "node.isGiftCard"
+          },
+          {
+            "column": "currentQuantity",
+            "path": "node.currentQuantity"
+          },
+          {
+            "column": "unfulfilledQuantity",
+            "path": "node.unfulfilledQuantity"
+          },
+          {
+            "column": "totalDiscount",
+            "path": "node.totalDiscountSet.shopMoney.amount"
+          },
+          {
+            "column": "fulfillmentStatus",
+            "path": "node.fulfillmentStatus"
+          },
+          {
+            "column": "weightValue",
+            "path": "node.variant.inventoryItem.measurement.weight.value"
+          },
+          {
+            "column": "weightUnit",
+            "path": "node.variant.inventoryItem.measurement.weight.unit"
+          }
+        ]
+      }
+    ]
+  }
+}

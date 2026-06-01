@@ -1,0 +1,534 @@
+{
+  "data": {
+    "orders": {
+      "edges": [
+        {
+          "node": {
+            "id": "gid://shopify/Order/5785577849077",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/5993276965109",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/5993326248181",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/5993330475253",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/5993342501109",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/5993543139573",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/5993561227509",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/5993561981173",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/5993563750645",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": [
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "title": "Special",
+                    "value": {
+                      "amount": "2000.0"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/6621555917045",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": [
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "title": "Special",
+                    "value": {
+                      "percentage": 20.0
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/6736369385717",
+            "discountCodes": [
+              "WX1SKW3MRNFR"
+            ],
+            "discountApplications": {
+              "edges": [
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "code": "WX1SKW3MRNFR",
+                    "value": {
+                      "percentage": 20.0
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/6745244598517",
+            "discountCodes": [
+              "abc"
+            ],
+            "discountApplications": {
+              "edges": [
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "title": "abc",
+                    "value": {
+                      "amount": "1000.0"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "title": "test123",
+                    "value": {
+                      "percentage": 34.0
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/6745246499061",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": [
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "title": "test123",
+                    "value": {
+                      "percentage": 34.0
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/6745248760053",
+            "discountCodes": [
+              "def"
+            ],
+            "discountApplications": {
+              "edges": [
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "title": "def",
+                    "value": {
+                      "amount": "1000.0"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "title": "test123",
+                    "value": {
+                      "percentage": 34.0
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/6745261375733",
+            "discountCodes": [
+              "EK9ZVEA94VNK",
+              "asd"
+            ],
+            "discountApplications": {
+              "edges": [
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "title": "asd",
+                    "value": {
+                      "amount": "200.0"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "code": "EK9ZVEA94VNK",
+                    "value": {
+                      "percentage": 45.0
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/6745294045429",
+            "discountCodes": [
+              "YQ4EKMGE6A9V"
+            ],
+            "discountApplications": {
+              "edges": [
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "code": "YQ4EKMGE6A9V",
+                    "value": {
+                      "percentage": 99.0
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/6745299353845",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/6745465389301",
+            "discountCodes": [
+              "WX1SKW3MRNFR",
+              "Z093NE9BB8G2"
+            ],
+            "discountApplications": {
+              "edges": [
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "code": "WX1SKW3MRNFR",
+                    "value": {
+                      "amount": "200.0",
+                      "currencyCode": "MMK"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "code": "Z093NE9BB8G2",
+                    "value": {
+                      "amount": "100.0",
+                      "currencyCode": "MMK"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/6745502286069",
+            "discountCodes": [
+              "Z093NE9BB8G2",
+              "a3",
+              "a2",
+              "a4",
+              "a1",
+              "ad"
+            ],
+            "discountApplications": {
+              "edges": [
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "title": "ad",
+                    "value": {
+                      "amount": "100.0"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "code": "Z093NE9BB8G2",
+                    "value": {
+                      "amount": "100.0",
+                      "currencyCode": "MMK"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "code": "a3",
+                    "value": {
+                      "amount": "3.0",
+                      "currencyCode": "MMK"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "code": "a2",
+                    "value": {
+                      "amount": "2.0",
+                      "currencyCode": "MMK"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "code": "a4",
+                    "value": {
+                      "amount": "1.0",
+                      "currencyCode": "MMK"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "code": "a1",
+                    "value": {
+                      "amount": "1.0",
+                      "currencyCode": "MMK"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/6745739526389",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/7526692454645",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/7526708314357",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/7526847021301",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/7526856950005",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/7526908756213",
+            "discountCodes": [
+              "RGGR0TVJGJ05",
+              "Custom discount"
+            ],
+            "discountApplications": {
+              "edges": [
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "title": "Custom discount",
+                    "value": {
+                      "amount": "200.0"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "code": "RGGR0TVJGJ05",
+                    "value": {
+                      "amount": "45.0",
+                      "currencyCode": "MMK"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/7526910198005",
+            "discountCodes": [
+              "GH5PSCG0GXRZ"
+            ],
+            "discountApplications": {
+              "edges": [
+                {
+                  "node": {
+                    "targetType": "LINE_ITEM",
+                    "code": "GH5PSCG0GXRZ",
+                    "value": {
+                      "amount": "234.0",
+                      "currencyCode": "MMK"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/7527007977717",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/7528902197493",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/7529119449333",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Order/7529151103221",
+            "discountCodes": [],
+            "discountApplications": {
+              "edges": []
+            }
+          }
+        }
+      ]
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 79,
+      "actualQueryCost": 7,
+      "throttleStatus": {
+        "maximumAvailable": 2000.0,
+        "currentlyAvailable": 1993,
+        "restoreRate": 100.0
+      }
+    }
+  }
+}
